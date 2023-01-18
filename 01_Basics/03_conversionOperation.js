@@ -25,7 +25,7 @@ console.log(typeof valueInNumber4)
 console.log( valueInNumber4)
 //Null value will result in the value '0'.
 
-//Undefined being convereted to nuimber.
+//Undefined being convereted to number.
 let score5= undefined
 let valueInNumber5 = Number(score5)
 console.log(typeof valueInNumber5)
@@ -60,3 +60,14 @@ let num3=33
 let stringNumber=String(num3)
 console.log(typeof stringNumber)
 console.log(stringNumber)
+
+//***********************Operations****************************/
+let str1="Swapnil "
+let str2="Dwivedi"
+let str3=str1+str2
+console.log(str3)
+
+console.log("2"+1+23)
+//will output as 2123 becoz the first operand was String.
+console.log(2+1+23+"3")
+//will output as 263 becoz first operand is a number.
