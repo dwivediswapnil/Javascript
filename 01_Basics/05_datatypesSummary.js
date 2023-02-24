@@ -45,3 +45,9 @@ console.log(typeof(heroes))
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+//Stack memory is used in Primitive types
+// In stack memory we get a copy of the stored values
+
+//Heap memory is used in Non-primitive types.
+//In heap memory , we get reference of the object stored.
